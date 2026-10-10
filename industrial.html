@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القطاع الصناعي والملابس | شركة صدام للتجارة والمقاولات 🇸🇦</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🎛️ شريط التحكم الإداري -->
+    <div class="admin-control-bar">
+        <span><i class="fa-solid fa-user-gear"></i> <span data-i18n="admin_toggle">تحكم الإدارة: النشاط الصناعي</span></span>
+        <label class="switch">
+            <input type="checkbox" id="industrial-toggle" checked>
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <!-- 🏛️ الهيدر وشريط التنقل -->
+    <nav class="navbar">
+        <a href="index.html" class="navbar-brand">
+            <img src="assets/images/WhatsApp Image 2026-10-10 at 6.18.28 PM.jpeg" alt="شعار شركة صدام">
+            <div class="brand-text">
+                <h1 class="gold-text" data-i18n="brand_name">شركة صدّام</h1>
+                <span data-i18n="brand_sub">للتجارة العامة والمقاولات العامة</span>
+            </div>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html" data-i18n="nav_home">الرئيسية</a></li>
+            <li><a href="about.html" data-i18n="nav_about">عن الشركة</a></li>
+            <li id="nav-industrial"><a href="industrial.html" class="active" data-i18n="nav_industrial">القطاع الصناعي والملابس</a></li>
+            <li><a href="contracting.html" data-i18n="nav_contracting">المقاولات والألمنيوم</a></li>
+            <li><a href="contact.html" data-i18n="nav_contact">اتصل بنا</a></li>
+        </ul>
+
+        <div class="header-actions">
+            <button id="theme-toggle-btn" class="btn-theme-toggle" title="تغيير الوضع"><i class="fa-solid fa-sun"></i></button>
+            <button id="lang-toggle-btn" class="btn-lang"><i class="fa-solid fa-globe"></i> English</button>
+            <a href="contact.html" class="btn-gold" data-i18n="btn_contact"><i class="fa-brands fa-whatsapp"></i> تواصل معنا</a>
+        </div>
+    </nav>
+
+    <!-- 🌟 واجهة القطاع الصناعي -->
+    <section class="hero" style="padding-top: 150px; padding-bottom: 60px;">
+        <div class="hero-content">
+            <div class="hero-badge"><i class="fa-solid fa-scissors"></i> <span data-i18n="ind_hero_badge">خط الإنتاج والتصنيع المحلي</span></div>
+            <h1>
+                <span data-i18n="ind_hero_title_1">قطاع</span> 
+                <span class="gold-text" data-i18n="ind_hero_title_gold">صناعة الملابس والمشالح الجاهزة</span>
+            </h1>
+            <p data-i18n="ind_hero_desc">تتمتع شركة صدام بقطاع صناعي متطور متخصص في إنتاج وتصنيع خطوط المشالح الفاخرة، الثياب الجاهزة، والملابس النسيجية بأعلى المعايير القياسية للسوق السعودي والخليجي.</p>
+        </div>
+        <div class="hero-image-wrapper">
+            <div class="hero-logo-card">
+                <img src="assets/images/WhatsApp Image 2026-10-10 at 9.38.50 PM.jpeg" alt="صناعة المشالح الملكية">
+                <h3 style="margin-top: 15px;" class="gold-text" data-i18n="ind_card1_title">المشالح الملكية الفاخرة</h3>
+                <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 5px;" data-i18n="ind_card1_desc">تصنيع وتطريز المشالح الملكية والفاخرة بأجود أنواع الزري والأقمشة الصوفية واليدوية الممتازة.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🧵 خطوط الإنتاج والخدمات الصناعية -->
+    <section class="section" style="background: var(--surface-dark);">
+        <div class="section-header">
+            <h2 data-i18n="ind_section_title">منتجاتنا وخطوط التصنيع</h2>
+            <p data-i18n="ind_section_desc">نقوم بتأمين كافة الاحتياجات وتأمين الطلبات للشركات والجهات والمؤسسات بالجملة</p>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-vest"></i></div>
+                <h3 data-i18n="ind_card1_title">المشالح الملكية الفاخرة</h3>
+                <p data-i18n="ind_card1_desc">تصنيع وتطريز المشالح الملكية والفاخرة بأجود أنواع الزري والأقمشة الصوفية واليدوية الممتازة.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-shirt"></i></div>
+                <h3 data-i18n="ind_card2_title">الثياب الجاهزة الرجالية والولادية</h3>
+                <p data-i18n="ind_card2_desc">إنتاج متكامل للثياب الجاهزة بمقاسات وقصات عصرية تناسب الذوق السعودي الرفيع.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
+                <h3 data-i18n="ind_card3_title">التوريدات والطلبات الخاصة</h3>
+                <p data-i18n="ind_card3_desc">تجهيز وتصنيع الطلبيات الخاصة للمؤسسات والشركات والمناسبات مع ضمان سرعة ومواعيد التسليم.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📸 معرض الصور الكامل -->
+    <section class="section">
+        <div class="section-header">
+            <div class="hero-badge"><i class="fa-solid fa-camera"></i> <span data-i18n="gallery_ind_badge">معرض الصور والمشالح المصنعة</span></div>
+            <h2>
+                <span data-i18n="gallery_ind_title_1">صور المنتجات</span> 
+                <span class="gold-text" data-i18n="gallery_ind_title_gold">والتصاميم المرفقة</span>
+            </h2>
+            <p data-i18n="gallery_ind_desc">نماذج حية لإنتاجنا وتفاصيل الخياطة والتطريز الفاخرة</p>
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="assets/images/WhatsApp Image 2026-10-10 at 9.38.50 PM.jpeg" alt="مشالح فاخرة">
+                <div class="gallery-overlay"><h4 data-i18n="gallery_img5">المشالح الملكية تطريز ذهبي</h4></div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/WhatsApp Image 2026-10-10 at 9.38.51 PM.jpeg" alt="ملابس جاهزة">
+                <div class="gallery-overlay"><h4 data-i18n="gallery_img6">خط الملابس والثياب الجاهزة</h4></div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/WhatsApp Image 2026-10-10 at 9.38.51 PM (1).jpeg" alt="تفصيل دقيق">
+                <div class="gallery-overlay"><h4 data-i18n="gallery_img7">جودة الخياطة والأنسجة</h4></div>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/images/WhatsApp Image 2026-10-10 at 9.38.51 PM (2).jpeg" alt="أقمشة ممتازة">
+                <div class="gallery-overlay"><h4 data-i18n="gallery_img8">اختيار أفضل الأقمشة العالمية</h4></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🦶 الفوتر الاحترافي المطور -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col-about">
+                <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
+                    <img src="assets/images/WhatsApp Image 2026-10-10 at 6.18.28 PM.jpeg" alt="شعار شركة صدام">
+                    <div>
+                        <h3 class="gold-text" data-i18n="brand_name">شركة صدّام</h3>
+                        <span style="font-size: 0.75rem; color: var(--gold-light);" data-i18n="brand_sub">للتجارة العامة والمقاولات العامة</span>
+                    </div>
+                </div>
+                <p data-i18n="footer_desc">شركة صدام للتجارة العامة والمقاولات العامة مؤسسة سعودية عريقة تعمل بتكامل في قطاعات المقاولات، أعمال الألمنيوم، وتصنيع المشالح والثياب الجاهزة.</p>
+                <div class="footer-socials">
+                    <a href="https://wa.me/966500000000" target="_blank" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" title="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="footer-title" data-i18n="footer_col_links">روابط سريعة</h4>
+                <ul class="footer-links-list">
+                    <li><a href="index.html"><i class="fa-solid fa-chevron-left"></i> <span data-i18n="nav_home">الرئيسية</span></a></li>
+                    <li><a href="about.html"><i class="fa-solid fa-chevron-left"></i> <span data-i18n="nav_about">عن الشركة</span></a></li>
+                    <li><a href="industrial.html"><i class="fa-solid fa-chevron-left"></i> <span data-i18n="nav_industrial">القطاع الصناعي والملابس</span></a></li>
+                    <li><a href="contracting.html"><i class="fa-solid fa-chevron-left"></i> <span data-i18n="nav_contracting">المقاولات والألمنيوم</span></a></li>
+                    <li><a href="contact.html"><i class="fa-solid fa-chevron-left"></i> <span data-i18n="nav_contact">اتصل بنا</span></a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title" data-i18n="footer_col_sectors">قطاعاتنا</h4>
+                <ul class="footer-links-list">
+                    <li><a href="industrial.html"><i class="fa-solid fa-scissors"></i> <span data-i18n="card_ind_title">صناعة الملابس والمشالح</span></a></li>
+                    <li><a href="contracting.html"><i class="fa-solid fa-building"></i> <span data-i18n="card_con_title">المقاولات العامة والتأسيس</span></a></li>
+                    <li><a href="contracting.html"><i class="fa-solid fa-window-maximize"></i> <span data-i18n="card_alu_title">أعمال ووحدات الألمنيوم</span></a></li>
+                    <li><a href="contracting.html"><i class="fa-solid fa-truck-fast"></i> <span data-i18n="con_trade1_title">التوريدات والتجارة العامة</span></a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4 class="footer-title" data-i18n="footer_col_contact">معلومات المقر والاتصال</h4>
+                <div class="footer-contact-info">
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <strong style="color: var(--text-primary); display: block;" data-i18n="contact_info_hq">المقر الرئيسي:</strong>
+                            <span data-i18n="footer_address">المملكة العربية السعودية 🇸🇦</span>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <strong style="color: var(--text-primary); display: block;" data-i18n="contact_card2_title">رقم الاتصال:</strong>
+                            <span style="direction: ltr; display: inline-block;">+966 50 000 0000</span>
+                        </div>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <strong style="color: var(--text-primary); display: block;" data-i18n="contact_card3_title">البريد الإلكتروني:</strong>
+                            <span>info@saddam-sa.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <p data-i18n="footer_rights">جميع الحقوق محفوظة © 2026 شركة صدام للتجارة العامة والمقاولات العامة.</p>
+            <div class="footer-saudi-badge">
+                <i class="fa-solid fa-award"></i> <span data-i18n="footer_saudi_flag">رؤية السعودية 2030 🇸🇦</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
